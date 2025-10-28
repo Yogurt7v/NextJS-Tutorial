@@ -1,5 +1,63 @@
-## Next.js App Router Course - Starter
+# Next.js Dashboard Tutorial
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+Это учебный проект по созданию дашборда с использованием Next.js. Приложение включает аутентификацию, управление клиентами, счетами и дашборд с аналитикой.
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+## Технологии
+
+- **Next.js** с App Router
+- **Tailwind CSS** для стилизации
+- **NextAuth.js** для аутентификации
+- **PostgreSQL** (рекомендуется для полной функциональности)
+- **TypeScript**
+
+## Установка и запуск
+
+1. Клонируйте репозиторий:
+
+   ```bash
+   git clone <repository-url>
+   cd nextjs-dashboard
+   ```
+
+2. Установите зависимости:
+
+   ```bash
+   npm install
+   ```
+
+3. Настройте базу данных (опционально для полного функционала):
+
+   - Создайте базу данных PostgreSQL
+   - Настройте переменные окружения в `.env.local`
+
+4. Запустите сервер разработки:
+   ```bash
+   npm run dev
+   ```
+
+Приложение будет доступно на [http://localhost:3000](http://localhost:3000).
+
+## Тестовые учетные данные
+
+Для демонстрации функциональности используйте следующие тестовые учетные данные:
+
+- **Email (Логин)**: user@nextmail.com
+- **Пароль**: 123456
+
+## Структура проекта
+
+- `/app` - Next.js маршрутные компоненты
+- `/app/lib` - Утилиты и данные
+- `/app/ui` - Компоненты пользовательского интерфейса
+- `/public` - Статические файлы
+
+## Уроки
+
+Этот проект является частью официального курса Next.js. Подробное описание шагов доступно на [сайте курса](https://nextjs.org/learn).
+
+## Команды
+
+- `npm run dev` - Запуск сервера разработки
+- `npm run build` - Сборка проекта
+- `npm start` - Запуск production сервера
+- `npm run lint` - Проверка ESLint
